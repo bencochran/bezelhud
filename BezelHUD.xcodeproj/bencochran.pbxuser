@@ -1,6 +1,7 @@
 // !$*UTF8*$!
 {
 	0259C573FE90428111CA0C5A /* Project object */ = {
+		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Release;
 		activeSDKPreference = macosx10.6;
 		activeTarget = 8D1AC9600486D14A00FE50C9 /* BezelHUD */;
@@ -11,9 +12,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					742,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -28,8 +29,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 273350466;
-			PBXWorkspaceStateSaveDate = 273350466;
+			PBXPerProjectTemplateStateSaveDate = 273350921;
+			PBXWorkspaceStateSaveDate = 273350921;
+		};
+		perUserProjectItems = {
+			B887F854104B012400FAB35E /* XCBuildMessageTextBookmark */ = B887F854104B012400FAB35E /* XCBuildMessageTextBookmark */;
+			B887F855104B012400FAB35E /* PBXTextBookmark */ = B887F855104B012400FAB35E /* PBXTextBookmark */;
+			B887F856104B012600FAB35E /* XCBuildMessageTextBookmark */ = B887F856104B012600FAB35E /* XCBuildMessageTextBookmark */;
+			B887F857104B012600FAB35E /* PBXTextBookmark */ = B887F857104B012600FAB35E /* PBXTextBookmark */;
 		};
 		sourceControlManager = B82358DA104AFF52009DD1CB /* Source Control */;
 		userBuildSettings = {
@@ -51,5 +58,50 @@
 	B82358DB104AFF52009DD1CB /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	B887F854104B012400FAB35E /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Duplicate interface declaration for category 'NSObject(controller)'";
+		fRef = C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	B887F855104B012400FAB35E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */;
+		name = "BHCollectingSearchView.h: 27";
+		rLen = 0;
+		rLoc = 481;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 48;
+	};
+	B887F856104B012600FAB35E /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Duplicate interface declaration for category 'NSObject(controller)'";
+		fRef = C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	B887F857104B012600FAB35E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */;
+		name = "BHCollectingSearchView.h: 27";
+		rLen = 0;
+		rLoc = 481;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 454}}";
+			sepNavSelRange = "{481, 0}";
+			sepNavVisRange = "{0, 544}";
+		};
 	};
 }
