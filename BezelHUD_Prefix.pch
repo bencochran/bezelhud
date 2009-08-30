@@ -5,7 +5,9 @@
 #ifdef __OBJC__
 #import <Cocoa/Cocoa.h>
 #import <QSFoundation/QSFoundation.h>
+#import <QSEffects/QSEffects.h>
 #import <QSCore/QSCore.h>
+#import <QSInterface/QSInterface.h>
 #endif
 
 
