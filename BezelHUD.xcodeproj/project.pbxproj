@@ -425,6 +425,7 @@
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
+				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = qsplugin;
 				ZERO_LINK = NO;
 			};

@@ -4,8 +4,12 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>BezelHUD</string>
+	<key>CFBundleGetInfoString</key>
+	<string>BezelHUD Interface 1.2a2</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.BezelHUD</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -14,8 +18,10 @@
 	<string>BezelHUD</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2a2</string>
 	<key>CFBundleVersion</key>
-	<string>287</string>
+	<string>28B</string>
 	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>interface.bindingname</key>
