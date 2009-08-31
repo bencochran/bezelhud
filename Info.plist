@@ -21,7 +21,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.2a2</string>
 	<key>CFBundleVersion</key>
-	<string>28C</string>
+	<string>28D</string>
 	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>interface.bindingname</key>
