@@ -27,13 +27,19 @@ div#wrapper
 
 div#imgWrap
 {
-	padding: 0.25em;
-	border: 1px solid #24221D;
+	padding: 5px;
+	border: 3px solid #24221D;
 	margin: 0 0 2.25em 0;
+/*	background-color: #24221D;*/
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 div#imgWrap img
 {
+	display: block;
 	margin: 0;
 	padding: 0;
 	border-size: 0;
