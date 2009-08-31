@@ -1,0 +1,92 @@
+body
+{
+	background: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	color: #24221D;
+}
+
+a
+{
+	color: #257694;
+}
+
+a:hover
+{
+	color: #574C40;
+}
+
+div#wrapper
+{
+	width: 43.75em;
+	margin: 2.25em auto;
+}
+
+div#imgWrap
+{
+	padding: 0.25em;
+	border: 1px solid #24221D;
+	margin: 0 0 2.25em 0;
+}
+
+div#imgWrap img
+{
+	margin: 0;
+	padding: 0;
+	border-size: 0;
+	width: 100%;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+h1 a.title
+{
+	text-decoration: none;
+	font-size: 2em;
+}
+
+h1 span
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 2em;
+}
+
+sup a
+{
+	text-decoration: none;
+}
+
+div#footnotes
+{
+	margin: 1.5em 0 0 0;
+	font-size: 1.333em;
+}
+
+div#footnotes ol
+{
+	font-size: 0.75em;
+	margin: 0;
+	padding-left: 1.333em;
+}
+
+div#footnotes ol ol
+{
+	list-style-type: lower-roman;
+	padding-left: 1.333em;
+}
+
+div#footnotes ol ol ol
+{
+	list-style-type: lower-alpha;
+	padding-left: 1.78em;
+}
