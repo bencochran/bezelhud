@@ -7,7 +7,7 @@
 //
 
 #import "BHCollectingSearchView.h"
-#import "CGSPrivate.h"
+//#import "CGSPrivate.h"
 
 #define CGS_EFFECT_DURATION 0.16
 

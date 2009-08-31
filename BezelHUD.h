@@ -20,4 +20,12 @@
 
 -(void)updateDetailsString;
 
+
+// ???
+//-(bool) isInEditorMode;
+//-(id) getEditorSender;
+
+-(void) editorEnabled:(id)sender;
+-(void) editorDisabled;
+
 @end

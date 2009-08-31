@@ -11,7 +11,6 @@
 		BB1A0E9C0BD588420049CB64 /* BezelHUD.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB1A0E9B0BD588420049CB64 /* BezelHUD.nib */; };
 		BB79B99D0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB79B99C0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib */; };
 		C616F2370D4D270B0073ABCB /* Button-GearMenu-White.png in Resources */ = {isa = PBXBuildFile; fileRef = C616F2290D4D270B0073ABCB /* Button-GearMenu-White.png */; };
-		C616F2380D4D270B0073ABCB /* QSIconLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F22B0D4D270B0073ABCB /* QSIconLoader.m */; };
 		C616F2390D4D270B0073ABCB /* ResultWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = C616F22C0D4D270B0073ABCB /* ResultWindow.nib */; };
 		C616F23A0D4D270B0073ABCB /* SFObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F22E0D4D270B0073ABCB /* SFObjectCell.m */; };
 		C616F23B0D4D270B0073ABCB /* SFRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2300D4D270B0073ABCB /* SFRankCell.m */; };
@@ -22,7 +21,6 @@
 		C616F2610D4D29BD0073ABCB /* BHCollectingSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2600D4D29BD0073ABCB /* BHCollectingSearchView.m */; };
 		C616F2650D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2640D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m */; };
 		C616F29E0D4D30F50073ABCB /* SFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F29D0D4D30F50073ABCB /* SFTableView.m */; };
-		C616F2A60D4D32570073ABCB /* QSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2A50D4D32570073ABCB /* QSTableView.m */; };
 		C616F3790D4D3D100073ABCB /* ChildArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */; };
 		C63BD8B20FC02358001D4627 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8AE0FC02358001D4627 /* QSCore.framework */; };
 		C63BD8B30FC02358001D4627 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8AF0FC02358001D4627 /* QSEffects.framework */; };
@@ -59,8 +57,6 @@
 		BB1A0E9B0BD588420049CB64 /* BezelHUD.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUD.nib; sourceTree = "<group>"; };
 		BB79B99C0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUDPrefPane.nib; sourceTree = "<group>"; };
 		C616F2290D4D270B0073ABCB /* Button-GearMenu-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-GearMenu-White.png"; sourceTree = "<group>"; };
-		C616F22A0D4D270B0073ABCB /* QSIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSIconLoader.h; sourceTree = "<group>"; };
-		C616F22B0D4D270B0073ABCB /* QSIconLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSIconLoader.m; sourceTree = "<group>"; };
 		C616F22C0D4D270B0073ABCB /* ResultWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ResultWindow.nib; sourceTree = "<group>"; };
 		C616F22D0D4D270B0073ABCB /* SFObjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFObjectCell.h; sourceTree = "<group>"; };
 		C616F22E0D4D270B0073ABCB /* SFObjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFObjectCell.m; sourceTree = "<group>"; };
@@ -80,8 +76,6 @@
 		C616F2640D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCollectingSearchObjectView.m; sourceTree = "<group>"; };
 		C616F29C0D4D30F50073ABCB /* SFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableView.h; sourceTree = "<group>"; };
 		C616F29D0D4D30F50073ABCB /* SFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableView.m; sourceTree = "<group>"; };
-		C616F2A40D4D32570073ABCB /* QSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTableView.h; sourceTree = "<group>"; };
-		C616F2A50D4D32570073ABCB /* QSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTableView.m; sourceTree = "<group>"; };
 		C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChildArrowWhite.png; sourceTree = "<group>"; };
 		C63BD8AE0FC02358001D4627 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = frameworks/QSCore.framework; sourceTree = "<group>"; };
 		C63BD8AF0FC02358001D4627 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = frameworks/QSEffects.framework; sourceTree = "<group>"; };
@@ -223,8 +217,6 @@
 		C616F23F0D4D27110073ABCB /* ResultList */ = {
 			isa = PBXGroup;
 			children = (
-				C616F2A40D4D32570073ABCB /* QSTableView.h */,
-				C616F2A50D4D32570073ABCB /* QSTableView.m */,
 				C616F22D0D4D270B0073ABCB /* SFObjectCell.h */,
 				C616F22E0D4D270B0073ABCB /* SFObjectCell.m */,
 				C616F22F0D4D270B0073ABCB /* SFRankCell.h */,
@@ -235,8 +227,6 @@
 				C616F2340D4D270B0073ABCB /* SFResults.m */,
 				C616F2350D4D270B0073ABCB /* SFTextField.h */,
 				C616F2360D4D270B0073ABCB /* SFTextField.m */,
-				C616F22A0D4D270B0073ABCB /* QSIconLoader.h */,
-				C616F22B0D4D270B0073ABCB /* QSIconLoader.m */,
 				C616F29C0D4D30F50073ABCB /* SFTableView.h */,
 				C616F29D0D4D30F50073ABCB /* SFTableView.m */,
 				C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */,
@@ -369,7 +359,6 @@
 				E1EAB046068128A200774DFF /* BezelHUD.m in Sources */,
 				C68D69C30D42C9530039B79A /* BHBackgroundView.m in Sources */,
 				C68D6A270D42DC660039B79A /* BHObjectCell.m in Sources */,
-				C616F2380D4D270B0073ABCB /* QSIconLoader.m in Sources */,
 				C616F23A0D4D270B0073ABCB /* SFObjectCell.m in Sources */,
 				C616F23B0D4D270B0073ABCB /* SFRankCell.m in Sources */,
 				C616F23C0D4D270B0073ABCB /* SFResultBackgroundView.m in Sources */,
@@ -379,7 +368,6 @@
 				C616F2610D4D29BD0073ABCB /* BHCollectingSearchView.m in Sources */,
 				C616F2650D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m in Sources */,
 				C616F29E0D4D30F50073ABCB /* SFTableView.m in Sources */,
-				C616F2A60D4D32570073ABCB /* QSTableView.m in Sources */,
 				C69EFC090DCEDD0D00E512A4 /* BHWindow.m in Sources */,
 				C6EC8BEF0DCF772700CC17C8 /* BHResultWindow.m in Sources */,
 				C6EC8C2F0DCF77B100CC17C8 /* QSResultWindow.m in Sources */,

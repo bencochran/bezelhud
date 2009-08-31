@@ -22,9 +22,9 @@
 
 @end
 
-@interface NSObject (controller)
-
--(void) editorEnabled:(id)sender;
--(void) editorDisabled;
-
-@end
+//@interface NSObject (controller)
+//
+//-(void) editorEnabled:(id)sender;
+//-(void) editorDisabled;
+//
+//@end

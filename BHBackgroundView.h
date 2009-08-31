@@ -32,9 +32,9 @@
 @end
 
 
-@interface NSObject (controller)
-
--(bool) isInEditorMode;
--(id) getEditorSender;
-
-@end
+//@interface NSObject (controller)
+//
+//-(bool) isInEditorMode;
+//-(id) getEditorSender;
+//
+//@end
