@@ -19,7 +19,6 @@
 		C616F23E0D4D270B0073ABCB /* SFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2360D4D270B0073ABCB /* SFTextField.m */; };
 		C616F2500D4D28150073ABCB /* BHSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F24F0D4D28150073ABCB /* BHSearchView.m */; };
 		C616F2610D4D29BD0073ABCB /* BHCollectingSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2600D4D29BD0073ABCB /* BHCollectingSearchView.m */; };
-		C616F2650D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2640D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m */; };
 		C616F29E0D4D30F50073ABCB /* SFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F29D0D4D30F50073ABCB /* SFTableView.m */; };
 		C616F3790D4D3D100073ABCB /* ChildArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */; };
 		C63BD8B20FC02358001D4627 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8AE0FC02358001D4627 /* QSCore.framework */; };
@@ -43,7 +42,6 @@
 		C6EC8BCA0DCF720700CC17C8 /* HUD_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EC8BC80DCF720700CC17C8 /* HUD_Big.png */; };
 		C6EC8BCB0DCF720700CC17C8 /* HUD_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EC8BC90DCF720700CC17C8 /* HUD_Small.png */; };
 		C6EC8BEF0DCF772700CC17C8 /* BHResultWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */; };
-		C6EC8C2F0DCF77B100CC17C8 /* QSResultWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8C2E0DCF77B100CC17C8 /* QSResultWindow.m */; };
 		C6EC8C9D0DCF80E100CC17C8 /* BHFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */; };
 		E1EAB046068128A200774DFF /* BezelHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* BezelHUD.m */; };
 /* End PBXBuildFile section */
@@ -72,8 +70,6 @@
 		C616F24F0D4D28150073ABCB /* BHSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHSearchView.m; sourceTree = "<group>"; };
 		C616F25F0D4D29BD0073ABCB /* BHCollectingSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCollectingSearchView.h; sourceTree = "<group>"; };
 		C616F2600D4D29BD0073ABCB /* BHCollectingSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHCollectingSearchView.m; sourceTree = "<group>"; };
-		C616F2630D4D2A8E0073ABCB /* QSCollectingSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCollectingSearchObjectView.h; sourceTree = "<group>"; };
-		C616F2640D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCollectingSearchObjectView.m; sourceTree = "<group>"; };
 		C616F29C0D4D30F50073ABCB /* SFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableView.h; sourceTree = "<group>"; };
 		C616F29D0D4D30F50073ABCB /* SFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableView.m; sourceTree = "<group>"; };
 		C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChildArrowWhite.png; sourceTree = "<group>"; };
@@ -103,8 +99,6 @@
 		C6EC8BC90DCF720700CC17C8 /* HUD_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_Small.png; sourceTree = "<group>"; };
 		C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHResultWindow.h; sourceTree = "<group>"; };
 		C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHResultWindow.m; sourceTree = "<group>"; };
-		C6EC8C2D0DCF77B100CC17C8 /* QSResultWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSResultWindow.h; sourceTree = "<group>"; };
-		C6EC8C2E0DCF77B100CC17C8 /* QSResultWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSResultWindow.m; sourceTree = "<group>"; };
 		C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHFieldEditor.h; sourceTree = "<group>"; };
 		C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHFieldEditor.m; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -131,7 +125,6 @@
 		0259C574FE90428111CA0C5A /* BezelHUD */ = {
 			isa = PBXGroup;
 			children = (
-				C69EFCAE0DCEDD5B00E512A4 /* From Quicksilver */,
 				C616F23F0D4D27110073ABCB /* ResultList */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
@@ -233,17 +226,6 @@
 				C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */,
 			);
 			name = ResultList;
-			sourceTree = "<group>";
-		};
-		C69EFCAE0DCEDD5B00E512A4 /* From Quicksilver */ = {
-			isa = PBXGroup;
-			children = (
-				C6EC8C2D0DCF77B100CC17C8 /* QSResultWindow.h */,
-				C6EC8C2E0DCF77B100CC17C8 /* QSResultWindow.m */,
-				C616F2630D4D2A8E0073ABCB /* QSCollectingSearchObjectView.h */,
-				C616F2640D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m */,
-			);
-			name = "From Quicksilver";
 			sourceTree = "<group>";
 		};
 		C6E0FED60D5B6AEA00C7F44D /* HUD Images */ = {
@@ -366,11 +348,9 @@
 				C616F23E0D4D270B0073ABCB /* SFTextField.m in Sources */,
 				C616F2500D4D28150073ABCB /* BHSearchView.m in Sources */,
 				C616F2610D4D29BD0073ABCB /* BHCollectingSearchView.m in Sources */,
-				C616F2650D4D2A8E0073ABCB /* QSCollectingSearchObjectView.m in Sources */,
 				C616F29E0D4D30F50073ABCB /* SFTableView.m in Sources */,
 				C69EFC090DCEDD0D00E512A4 /* BHWindow.m in Sources */,
 				C6EC8BEF0DCF772700CC17C8 /* BHResultWindow.m in Sources */,
-				C6EC8C2F0DCF77B100CC17C8 /* QSResultWindow.m in Sources */,
 				C6EC8C9D0DCF80E100CC17C8 /* BHFieldEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
