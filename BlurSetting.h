@@ -7,4 +7,4 @@
  *
  */
 
-#define SUPPORT_BLURRING YES
+#define SUPPORT_BLURRING NO
