@@ -214,9 +214,9 @@
 }
 
 // Uncomment if you're having a customize button + pref pane
-/*- (IBAction)customize:(id)sender{
-	[[NSClassFromString(@"QSPreferencesController") sharedInstance]showPaneWithIdentifier:@"QSFumoInterfacePrefPane"];
-}*/
+- (IBAction)customize:(id)sender{
+	[[NSClassFromString(@"QSPreferencesController") sharedInstance]showPaneWithIdentifier:@"BezelHUDPrefPane"];
+}
 
 
 - (void)actionActivate:(id)sender{

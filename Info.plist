@@ -21,7 +21,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.2a2</string>
 	<key>CFBundleVersion</key>
-	<string>28F</string>
+	<string>294</string>
 	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>interface.bindingname</key>
@@ -55,12 +55,12 @@
 			<key>BezelHUD</key>
 			<string>BezelHUD</string>
 		</dict>
-		<key>QSPreferencePanesTemplate</key>
+		<key>QSPreferencePanes</key>
 		<dict>
 			<key>BezelHUDPrefPane</key>
 			<dict>
 				<key>class</key>
-				<string>QSPreferencePane</string>
+				<string>BHPreferencePane</string>
 				<key>description</key>
 				<string>BezelHUD interface preferences</string>
 				<key>icon</key>
