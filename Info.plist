@@ -21,13 +21,13 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.2a2</string>
 	<key>CFBundleVersion</key>
-	<string>294</string>
-	<key>QSDefaultsTemplate</key>
+	<string>2AD</string>
+	<key>QSDefaults</key>
 	<dict>
-		<key>interface.bindingname</key>
-		<string>value</string>
-		<key>interface.bindingname2</key>
-		<string>value</string>
+		<key>BezelHUD.blur</key>
+		<true/>
+		<key>BezelHUD.force_center</key>
+		<false/>
 	</dict>
 	<key>QSPlugIn</key>
 	<dict>

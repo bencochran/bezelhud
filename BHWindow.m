@@ -9,13 +9,22 @@
 #import "BHWindow.h"
 #import "BlurSetting.h"
 
-int blurFilter = -1;
-BHFieldEditor* fEditor = nil;
-
 @implementation BHWindow
 
+-(void) awakeFromNib {
+	[super awakeFromNib];
+	
+	NSLog(@"I'm awake!");
+	[self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
+
+	blurFilter = -1;
+	fEditor = nil;
+}
+
 -(void) applyBlurEffect {
-	if (!SUPPORT_BLURRING) return;
+	
+	//if (!self.shouldBlur) return;
+	//if (!SUPPORT_BLURRING) return;
 	if (blurFilter != -1) return;
 	
 	CGSNewCIFilterByName(_CGSDefaultConnection(), (CFStringRef)@"CIGaussianBlur", &blurFilter);
@@ -24,9 +33,17 @@ BHFieldEditor* fEditor = nil;
 	CGSSetCIFilterValuesFromDictionary(_CGSDefaultConnection(), blurFilter, dict);
 }
 
+-(void) removeBlurEffect {
+	if (blurFilter == -1) return;
+	
+	CGSRemoveWindowFilter(_CGSDefaultConnection(), [self windowNumber], blurFilter);
+	CGSReleaseCIFilter(_CGSDefaultConnection(), blurFilter);
+	blurFilter = -1;
+}
+
 -(void) makeKeyAndOrderFront:(id)sender {
 	[super makeKeyAndOrderFront:sender];
-	[self applyBlurEffect];
+	//[self applyBlurEffect];
 }
 
 - (NSTimeInterval)animationResizeTime:(NSRect)newWindowFrame
@@ -42,5 +59,18 @@ BHFieldEditor* fEditor = nil;
 	return fEditor;
 }
 /**/
+
+- (BOOL)shouldBlur { return shouldBlur;  }
+- (void)setShouldBlur:(BOOL)blur {
+	shouldBlur = blur;
+	if (blur)
+	{
+		[self applyBlurEffect];
+	}
+	else
+	{
+		[self removeBlurEffect];
+	}
+}
 
 @end

@@ -11,7 +11,12 @@
 #import "BHFieldEditor.h"
 
 @interface BHWindow : QSBorderlessWindow {
-
+	BOOL shouldBlur;
+	int blurFilter;
+	BHFieldEditor* fEditor;
 }
+
+- (BOOL)shouldBlur;
+- (void)setShouldBlur:(BOOL)blur;
 
 @end

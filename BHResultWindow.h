@@ -11,6 +11,11 @@
 
 @interface BHResultWindow : QSResultWindow {
 	int blurFilterR;
+	BOOL shouldBlur;
 }
+
+- (BOOL)shouldBlur;
+- (void)setShouldBlur:(BOOL)blur;
+
 
 @end
