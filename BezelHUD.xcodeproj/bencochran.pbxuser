@@ -205,6 +205,10 @@
 			B85B9E18104F989500ADBAA3 /* PBXTextBookmark */ = B85B9E18104F989500ADBAA3 /* PBXTextBookmark */;
 			B85B9E19104F989500ADBAA3 /* PBXTextBookmark */ = B85B9E19104F989500ADBAA3 /* PBXTextBookmark */;
 			B85B9E1A104F989500ADBAA3 /* PBXTextBookmark */ = B85B9E1A104F989500ADBAA3 /* PBXTextBookmark */;
+			B85B9E1C104F991100ADBAA3 /* PBXTextBookmark */ = B85B9E1C104F991100ADBAA3 /* PBXTextBookmark */;
+			B85B9E1D104F991100ADBAA3 /* PBXTextBookmark */ = B85B9E1D104F991100ADBAA3 /* PBXTextBookmark */;
+			B85B9E1E104F991100ADBAA3 /* PBXTextBookmark */ = B85B9E1E104F991100ADBAA3 /* PBXTextBookmark */;
+			B85B9E1F104F991100ADBAA3 /* PBXTextBookmark */ = B85B9E1F104F991100ADBAA3 /* PBXTextBookmark */;
 			B875A9EB104B4E6100B48682 = B875A9EB104B4E6100B48682 /* PBXTextBookmark */;
 			B875A9EC104B4E6100B48682 = B875A9EC104B4E6100B48682 /* PBXTextBookmark */;
 			B875A9ED104B4E6100B48682 = B875A9ED104B4E6100B48682 /* PBXTextBookmark */;
@@ -541,7 +545,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 14";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 351;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 0;
@@ -706,7 +710,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 14";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 351;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 0;
@@ -746,7 +750,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 18";
 		rLen = 0;
-		rLoc = 338;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -796,7 +800,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 18;
+		rLoc = 19;
 		rType = 1;
 	};
 	B85B9D5E104F8E1A00ADBAA3 /* PBXTextBookmark */ = {
@@ -804,7 +808,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 18";
 		rLen = 0;
-		rLoc = 338;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -814,7 +818,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 18";
 		rLen = 0;
-		rLoc = 365;
+		rLoc = 391;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -864,7 +868,7 @@
 		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
 		name = "BHResultWindow.h: 18";
 		rLen = 0;
-		rLoc = 365;
+		rLoc = 391;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -1887,6 +1891,46 @@
 		vrLen = 589;
 		vrLoc = 0;
 	};
+	B85B9E1C104F991100ADBAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C69EFC080DCEDD0D00E512A4 /* BHWindow.m */;
+		name = "BHWindow.m: 10";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	B85B9E1D104F991100ADBAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */;
+		name = "BHResultWindow.m: 32";
+		rLen = 27;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 173;
+	};
+	B85B9E1E104F991100ADBAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
+		name = "BHResultWindow.h: 17";
+		rLen = 0;
+		rLoc = 301;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	B85B9E1F104F991100ADBAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */;
+		name = "BHResultWindow.h: 18";
+		rLen = 16;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
 	B875A9EB104B4E6100B48682 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C68D6A260D42DC660039B79A /* BHObjectCell.m */;
@@ -2309,15 +2353,15 @@
 	C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {837, 367}}";
-			sepNavSelRange = "{301, 0}";
-			sepNavVisRange = "{0, 379}";
+			sepNavSelRange = "{326, 16}";
+			sepNavVisRange = "{0, 405}";
 		};
 	};
 	C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 624}}";
-			sepNavSelRange = "{172, 0}";
-			sepNavVisRange = "{82, 1120}";
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 598}}";
+			sepNavSelRange = "{1141, 27}";
+			sepNavVisRange = "{173, 1193}";
 		};
 	};
 	C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */ = {

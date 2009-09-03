@@ -280,8 +280,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>16</integer>
+									<integer>14</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -323,7 +323,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BHWindow.m</string>
+								<string>BHResultWindow.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BHWindow.m</string>
+										<string>BHResultWindow.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B85B9E1A104F989500ADBAA3</string>
+										<string>B85B9E1F104F991100ADBAA3</string>
 										<key>history</key>
 										<array>
 											<string>B875A9EB104B4E6100B48682</string>
@@ -354,7 +354,6 @@
 											<string>B8C55964104B69E600E92C38</string>
 											<string>B8F216AF104C0857008513FA</string>
 											<string>B85B9C48104F875A00ADBAA3</string>
-											<string>B85B9C49104F875A00ADBAA3</string>
 											<string>B85B9CD1104F8C1B00ADBAA3</string>
 											<string>B85B9D8F104F918B00ADBAA3</string>
 											<string>B85B9D91104F918B00ADBAA3</string>
@@ -386,12 +385,12 @@
 											<string>B85B9DF8104F966000ADBAA3</string>
 											<string>B85B9E07104F974C00ADBAA3</string>
 											<string>B85B9E08104F974C00ADBAA3</string>
-											<string>B85B9E0F104F987700ADBAA3</string>
 											<string>B85B9E10104F987700ADBAA3</string>
-											<string>B85B9E11104F987700ADBAA3</string>
 											<string>B85B9E12104F987700ADBAA3</string>
 											<string>B85B9E18104F989500ADBAA3</string>
-											<string>B85B9E19104F989500ADBAA3</string>
+											<string>B85B9E1C104F991100ADBAA3</string>
+											<string>B85B9E1D104F991100ADBAA3</string>
+											<string>B85B9E1E104F991100ADBAA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
