@@ -97,7 +97,6 @@
 		C6E0FF220D5B78EC00C7F44D /* bg_image8.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bg_image8.tif; sourceTree = "<group>"; };
 		C6E0FF7D0D5B891500C7F44D /* bg_image9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_image9.png; sourceTree = "<group>"; };
 		C6E0FF890D5B8B2100C7F44D /* bg_image7.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bg_image7.tif; sourceTree = "<group>"; };
-		C6E84EA60E028E2B00D7AE67 /* BlurSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurSetting.h; sourceTree = "<group>"; };
 		C6EC8BC80DCF720700CC17C8 /* HUD_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_Big.png; sourceTree = "<group>"; };
 		C6EC8BC90DCF720700CC17C8 /* HUD_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_Small.png; sourceTree = "<group>"; };
 		C6EC8BED0DCF772700CC17C8 /* BHResultWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHResultWindow.h; sourceTree = "<group>"; };
@@ -188,7 +187,6 @@
 				C69EFC080DCEDD0D00E512A4 /* BHWindow.m */,
 				C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */,
 				C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */,
-				C6E84EA60E028E2B00D7AE67 /* BlurSetting.h */,
 				B8D0A088104E3270000F83A0 /* BHPreferencePane.h */,
 				B8D0A089104E3270000F83A0 /* BHPreferencePane.m */,
 			);

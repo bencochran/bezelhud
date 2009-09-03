@@ -7,7 +7,6 @@
 //
 
 #import "BHResultWindow.h"
-#import "BlurSetting.h"
 
 @implementation BHResultWindow
 
@@ -36,10 +35,6 @@
 	CGSRemoveWindowFilter(_CGSDefaultConnection(), [self windowNumber], blurFilterR);
 	CGSReleaseCIFilter(_CGSDefaultConnection(), blurFilterR);
 	blurFilterR = -1;
-}
-
--(void) orderFront:(id)sender {
-	[super orderFront:sender];
 }
 
 - (BOOL)shouldBlur { return shouldBlur;  }

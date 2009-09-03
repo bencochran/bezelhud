@@ -14,6 +14,7 @@
 	BOOL shouldBlur;
 }
 
+- (void)applyBlurEffect;
 - (BOOL)shouldBlur;
 - (void)setShouldBlur:(BOOL)blur;
 

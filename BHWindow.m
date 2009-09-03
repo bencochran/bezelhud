@@ -7,7 +7,6 @@
 //
 
 #import "BHWindow.h"
-#import "BlurSetting.h"
 
 @implementation BHWindow
 
@@ -39,11 +38,6 @@
 	CGSRemoveWindowFilter(_CGSDefaultConnection(), [self windowNumber], blurFilter);
 	CGSReleaseCIFilter(_CGSDefaultConnection(), blurFilter);
 	blurFilter = -1;
-}
-
--(void) makeKeyAndOrderFront:(id)sender {
-	[super makeKeyAndOrderFront:sender];
-	//[self applyBlurEffect];
 }
 
 - (NSTimeInterval)animationResizeTime:(NSRect)newWindowFrame
