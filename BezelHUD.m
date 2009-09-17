@@ -86,7 +86,10 @@
 	
 // Just a reminder that you can do normal NSWindow-ey things...
 //    [[self window]setMovableByWindowBackground:NO];
-
+	
+	// Oh, that shouldn't have been so hard.
+	[[self window] setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+	
 	[[[self window] contentView] setNeedsDisplay:true];
 }
 
