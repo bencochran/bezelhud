@@ -132,7 +132,7 @@
 	usleep((useconds_t)(1050000*duration));
 	
 	//	Release our variables
-	int err = CGSReleaseTransition(cgs, cgs_handle);
+	CGSReleaseTransition(cgs, cgs_handle);
 	cgs_handle=0;
 	
 }

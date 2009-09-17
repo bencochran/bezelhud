@@ -59,7 +59,7 @@
 	if (!nameString) nameString = [drawObject name];
 	if (!nameString) nameString = @"<Unknown>";
 	
-	NSSize nameSize = [nameString sizeWithAttributes:nameAttributes];
+	//NSSize nameSize = [nameString sizeWithAttributes:nameAttributes];
 
 	NSRect textDrawRect = [self titleRectForBounds:cellFrame];
 	

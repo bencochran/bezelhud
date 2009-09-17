@@ -18,7 +18,7 @@
 @interface BezelHUD : QSResizingInterfaceController {
 }
 
--(void)updateDetailsString;
+-(void) updateDetailsString;
 
 
 // ???
