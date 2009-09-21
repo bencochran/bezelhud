@@ -11,6 +11,12 @@
 
 @implementation BHObjectCell
 
++ (id)cellWithText:(NSString *)aString {
+	BHObjectCell *cell = [[BHObjectCell alloc] initTextCell:aString];
+	[cell autorelease];
+	return cell;
+}
+
 - (id)initTextCell:(NSString *)aString {
 	
 	if (self = [super initTextCell:aString]) {

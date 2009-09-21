@@ -46,9 +46,10 @@
 	// setWindowProperty returns an error, unfortunately... ignore it
 	[window setWindowProperty:[NSDictionary dictionaryWithObjectsAndKeys:@"QSExplodeEffect",@"transformFn",@"hide",@"type",[NSNumber numberWithFloat:0.09],@"duration",nil] forKey:kQSWindowExecEffect];
 
-	[dSelector setCell:[[BHObjectCell alloc] initTextCell:@"BezelHUD"]];
-	[aSelector setCell:[[BHObjectCell alloc] initTextCell:@"BezelHUD"]];
-	[iSelector setCell:[[BHObjectCell alloc] initTextCell:@"BezelHUD"]];
+	[dSelector setCell:[BHObjectCell cellWithText:@"BezeHUD"]];
+	[aSelector setCell:[BHObjectCell cellWithText:@"BezeHUD"]];
+	[iSelector setCell:[BHObjectCell cellWithText:@"BezeHUD"]];
+
 	
     NSArray *theControls=[NSArray arrayWithObjects:dSelector,aSelector,iSelector,nil];
     foreach(theControl,theControls){
@@ -85,7 +86,10 @@
 	
 // Just a reminder that you can do normal NSWindow-ey things...
 //    [[self window]setMovableByWindowBackground:NO];
-
+	
+	// Oh, that shouldn't have been so hard.
+	[[self window] setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+	
 	[[[self window] contentView] setNeedsDisplay:true];
 }
 

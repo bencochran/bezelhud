@@ -13,4 +13,7 @@
 
 }
 
++(id) cellWithText:(NSString*)aString;
+
+
 @end

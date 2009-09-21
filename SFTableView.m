@@ -47,6 +47,8 @@
 		}
 		highlightRect.origin.y += cellHeight;
 	}
+	
+	[gradient release];
 }
 
 - (void)drawBackgroundInClipRect:(NSRect)clipRect {
