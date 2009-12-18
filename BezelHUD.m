@@ -193,7 +193,7 @@
 	titleRect.origin.x = newRect.size.width/2 - titleRect.size.width/2; 
 	[txtTitle setFrame:titleRect];
 	
-	[[[self window] contentView] setNeedsDisplay:true];
+	[[[self window] contentView] setNeedsDisplay:YES];
 }
 
 // When something changes, update the command string
