@@ -66,8 +66,8 @@
 
 	}
 	
-	[(BHCollectingSearchView*)dSelector setIsLeftSelector:true];
-	[(BHCollectingSearchView*)iSelector setIsLeftSelector:false];
+	[(BHCollectingSearchView*)dSelector setIsLeftSelector:YES];
+	[(BHCollectingSearchView*)iSelector setIsLeftSelector:NO];
 	
 	[dSelector setAutoresizingMask:0];
 	[aSelector setAutoresizingMask:0];
@@ -90,25 +90,25 @@
 	// Oh, that shouldn't have been so hard.
 	[[self window] setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
 	
-	[[[self window] contentView] setNeedsDisplay:true];
+	[[[self window] contentView] setNeedsDisplay:YES];
 }
 
 -(void) editorEnabled:(id)sender {
 	if (sender == dSelector) {
-		[(BHSearchView*)aSelector setEditorActivated:true];
+		[(BHSearchView*)aSelector setEditorActivated:YES];
 		[(BHCollectingSearchView*)iSelector editorActivation:1];
 	} else if (sender == iSelector) {
-		[(BHSearchView*)aSelector setEditorActivated:true];
+		[(BHSearchView*)aSelector setEditorActivated:YES];
 		[(BHCollectingSearchView*)dSelector editorActivation:3];
 	}
-	[commandView setHidden:true];
+	[commandView setHidden:YES];
 }
 
 -(void) editorDisabled {
 	[(BHCollectingSearchView*)dSelector editorActivation:0];
-	[(BHSearchView*)aSelector setEditorActivated:false];
+	[(BHSearchView*)aSelector setEditorActivated:NO];
 	[(BHCollectingSearchView*)iSelector editorActivation:0];
-	[commandView setHidden:false];
+	[commandView setHidden:NO];
 }
 
 - (NSSize)maxIconSize{
@@ -145,7 +145,7 @@
 	newRect.origin.x -= (550- newRect.size.width)/2;
 	newRect.size.width = 550;
 	
-	[[self window] setFrame:newRect display:true animate:true];
+	[[self window] setFrame:newRect display:YES animate:YES];
 	
 	if (!([dSelector currentEditor] || [iSelector currentEditor])) {
 		NSRect selRect = NSMakeRect(20, 32, 160, 160);
@@ -165,7 +165,7 @@
 	titleRect.origin.x = newRect.size.width/2 - titleRect.size.width/2; 
 	[txtTitle setFrame:titleRect];
 
-	[[[self window] contentView] setNeedsDisplay:true];
+	[[[self window] contentView] setNeedsDisplay:YES];
 }
 
 - (void)contractWindow:(id)sender{
@@ -173,7 +173,7 @@
 	NSRect newRect = [[self window] frame];
 	newRect.origin.x -= ((550-174) - newRect.size.width)/2;
 	newRect.size.width = (550-174);
-	[[self window] setFrame:newRect display:true animate:true];
+	[[self window] setFrame:newRect display:YES animate:YES];
 
 	if (!([dSelector currentEditor] || [iSelector currentEditor])) {
 		NSRect selRect = NSMakeRect(20, 32, 160, 160);

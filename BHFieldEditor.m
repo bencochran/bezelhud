@@ -30,7 +30,7 @@
 }
 
 - (BOOL)shouldDrawInsertionPoint {
-	return true;
+	return YES;
 }
 /**/
 @end
