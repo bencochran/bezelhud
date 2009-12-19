@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		B811D79310DC51F6008C3770 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811D79210DC51F6008C3770 /* QSCore.framework */; };
+		B811D79710DC5208008C3770 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811D79610DC5208008C3770 /* QSFoundation.framework */; };
+		B811D90E10DC5775008C3770 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811D90D10DC5775008C3770 /* QSEffects.framework */; };
+		B811D91010DC5775008C3770 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811D90F10DC5775008C3770 /* QSInterface.framework */; };
 		BB1A0E9C0BD588420049CB64 /* BezelHUD.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB1A0E9B0BD588420049CB64 /* BezelHUD.nib */; };
 		BB79B99D0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB79B99C0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib */; };
 		C616F2370D4D270B0073ABCB /* Button-GearMenu-White.png in Resources */ = {isa = PBXBuildFile; fileRef = C616F2290D4D270B0073ABCB /* Button-GearMenu-White.png */; };
@@ -21,10 +25,6 @@
 		C616F2610D4D29BD0073ABCB /* BHCollectingSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F2600D4D29BD0073ABCB /* BHCollectingSearchView.m */; };
 		C616F29E0D4D30F50073ABCB /* SFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C616F29D0D4D30F50073ABCB /* SFTableView.m */; };
 		C616F3790D4D3D100073ABCB /* ChildArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */; };
-		C63BD8B20FC02358001D4627 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8AE0FC02358001D4627 /* QSCore.framework */; };
-		C63BD8B30FC02358001D4627 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8AF0FC02358001D4627 /* QSEffects.framework */; };
-		C63BD8B40FC02358001D4627 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8B00FC02358001D4627 /* QSFoundation.framework */; };
-		C63BD8B50FC02358001D4627 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8B10FC02358001D4627 /* QSInterface.framework */; };
 		C68D69C30D42C9530039B79A /* BHBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D69C20D42C9530039B79A /* BHBackgroundView.m */; };
 		C68D69DA0D42CD390039B79A /* Close Button.tif in Resources */ = {isa = PBXBuildFile; fileRef = C68D69D80D42CD390039B79A /* Close Button.tif */; };
 		C68D69DB0D42CD390039B79A /* Drop Down Arrow.tif in Resources */ = {isa = PBXBuildFile; fileRef = C68D69D90D42CD390039B79A /* Drop Down Arrow.tif */; };
@@ -48,10 +48,12 @@
 
 /* Begin PBXFileReference section */
 		32DBCF980370C29C00C91783 /* BezelHUD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezelHUD_Prefix.pch; sourceTree = "<group>"; };
-		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
-		7F35FF3F07F9ACD90056051D /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1AC9740486D14A00FE50C9 /* BezelHUD.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezelHUD.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B811D79210DC51F6008C3770 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSCore.framework; sourceTree = "<absolute>"; };
+		B811D79610DC5208008C3770 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSFoundation.framework; sourceTree = "<absolute>"; };
+		B811D90D10DC5775008C3770 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSEffects.framework; sourceTree = "<absolute>"; };
+		B811D90F10DC5775008C3770 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSInterface.framework; sourceTree = "<absolute>"; };
 		BB1A0E9B0BD588420049CB64 /* BezelHUD.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUD.nib; sourceTree = "<group>"; };
 		BB79B99C0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUDPrefPane.nib; sourceTree = "<group>"; };
 		C616F2290D4D270B0073ABCB /* Button-GearMenu-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-GearMenu-White.png"; sourceTree = "<group>"; };
@@ -73,10 +75,6 @@
 		C616F29C0D4D30F50073ABCB /* SFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableView.h; sourceTree = "<group>"; };
 		C616F29D0D4D30F50073ABCB /* SFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableView.m; sourceTree = "<group>"; };
 		C616F3780D4D3D100073ABCB /* ChildArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChildArrowWhite.png; sourceTree = "<group>"; };
-		C63BD8AE0FC02358001D4627 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = frameworks/QSCore.framework; sourceTree = "<group>"; };
-		C63BD8AF0FC02358001D4627 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = frameworks/QSEffects.framework; sourceTree = "<group>"; };
-		C63BD8B00FC02358001D4627 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = frameworks/QSFoundation.framework; sourceTree = "<group>"; };
-		C63BD8B10FC02358001D4627 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = frameworks/QSInterface.framework; sourceTree = "<group>"; };
 		C68D69C10D42C9530039B79A /* BHBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBackgroundView.h; sourceTree = "<group>"; };
 		C68D69C20D42C9530039B79A /* BHBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBackgroundView.m; sourceTree = "<group>"; };
 		C68D69D80D42CD390039B79A /* Close Button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Close Button.tif"; sourceTree = "<group>"; };
@@ -112,10 +110,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
-				C63BD8B20FC02358001D4627 /* QSCore.framework in Frameworks */,
-				C63BD8B30FC02358001D4627 /* QSEffects.framework in Frameworks */,
-				C63BD8B40FC02358001D4627 /* QSFoundation.framework in Frameworks */,
-				C63BD8B50FC02358001D4627 /* QSInterface.framework in Frameworks */,
+				B811D79310DC51F6008C3770 /* QSCore.framework in Frameworks */,
+				B811D79710DC5208008C3770 /* QSFoundation.framework in Frameworks */,
+				B811D90E10DC5775008C3770 /* QSEffects.framework in Frameworks */,
+				B811D91010DC5775008C3770 /* QSInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,12 +156,11 @@
 		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C63BD8AE0FC02358001D4627 /* QSCore.framework */,
-				C63BD8AF0FC02358001D4627 /* QSEffects.framework */,
-				C63BD8B00FC02358001D4627 /* QSFoundation.framework */,
-				C63BD8B10FC02358001D4627 /* QSInterface.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
-				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
+				B811D79210DC51F6008C3770 /* QSCore.framework */,
+				B811D79610DC5208008C3770 /* QSFoundation.framework */,
+				B811D90D10DC5775008C3770 /* QSEffects.framework */,
+				B811D90F10DC5775008C3770 /* QSInterface.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,15 +193,6 @@
 				32DBCF980370C29C00C91783 /* BezelHUD_Prefix.pch */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		7FC20C8107FB741700FDD3CA /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7F35FF3D07F9ACD90056051D /* QSEffects.framework */,
-				7F35FF3F07F9ACD90056051D /* QSInterface.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		C616F23F0D4D27110073ABCB /* ResultList */ = {
@@ -361,25 +349,36 @@
 		7F6B3EEC085CE8DF000735A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(QSFrameworks)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BezelHUD_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "i386 x86_64 ppc";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-parentheses",
+					"-Wno-deprecated-declarations",
+					"-Wunused-function",
+				);
 				WRAPPER_EXTENSION = qsplugin;
 				ZERO_LINK = YES;
 			};
@@ -388,24 +387,35 @@
 		7F6B3EED085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = i386;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(QSFrameworks)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BezelHUD_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "i386 x86_64 ppc";
 				VERSIONING_SYSTEM = "";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-parentheses",
+					"-Wno-deprecated-declarations",
+					"-Wunused-function",
+				);
 				WRAPPER_EXTENSION = qsplugin;
 				ZERO_LINK = NO;
 			};
