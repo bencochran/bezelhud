@@ -10,17 +10,18 @@
 
 @implementation BHResultWindow
 
+@synthesize shouldBlur;
+
 - (id)initWithContentRect:(NSRect)contentRect styleMask:(unsigned int)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag {
-	NSWindow* result = [super initWithContentRect:contentRect styleMask:aStyle backing:bufferingType defer:flag];
-	blurFilterR = -1;
+    NSWindow* result = [super initWithContentRect:contentRect styleMask:aStyle backing:bufferingType defer:flag];
+    
+    [self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
 	
-	[self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
-	
+    blurFilterR = -1;
 	return result;
 }
--(void) applyBlurEffect {	
-	//if (!self.shouldBlur) return;
-	//if (!SUPPORT_BLURRING) return;
+-(void) applyBlurEffect {    
+    if (!self.shouldBlur) return;
 	if (blurFilterR != -1) return;
 	
 	CGSNewCIFilterByName(_CGSDefaultConnection(), (CFStringRef)@"CIGaussianBlur", &blurFilterR);
@@ -37,9 +38,14 @@
 	blurFilterR = -1;
 }
 
-- (BOOL)shouldBlur { return shouldBlur;  }
+-(void) orderFront:(id)sender {
+	[super orderFront:sender];
+	[self applyBlurEffect];
+}
+
 - (void)setShouldBlur:(BOOL)blur {
 	shouldBlur = blur;
+    
 	if (blur)
 	{
 		[self applyBlurEffect];

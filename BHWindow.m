@@ -10,20 +10,20 @@
 
 @implementation BHWindow
 
+@synthesize shouldBlur;
+
 -(void) awakeFromNib {
 	[super awakeFromNib];
 	
-	NSLog(@"I'm awake!");
-	[self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
-
-	blurFilter = -1;
-	fEditor = nil;
+    [self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
+    
+    blurFilter = -1;
+    fEditor = nil;
 }
 
 -(void) applyBlurEffect {
 	
-	//if (!self.shouldBlur) return;
-	//if (!SUPPORT_BLURRING) return;
+    if (!self.shouldBlur) return;
 	if (blurFilter != -1) return;
 	
 	CGSNewCIFilterByName(_CGSDefaultConnection(), (CFStringRef)@"CIGaussianBlur", &blurFilter);
@@ -40,6 +40,11 @@
 	blurFilter = -1;
 }
 
+-(void) makeKeyAndOrderFront:(id)sender {
+	[super makeKeyAndOrderFront:sender];
+	[self applyBlurEffect];
+}
+
 - (NSTimeInterval)animationResizeTime:(NSRect)newWindowFrame
 {
 	return 0.05f;
@@ -54,9 +59,9 @@
 }
 /**/
 
-- (BOOL)shouldBlur { return shouldBlur;  }
 - (void)setShouldBlur:(BOOL)blur {
 	shouldBlur = blur;
+    
 	if (blur)
 	{
 		[self applyBlurEffect];
