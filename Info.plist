@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>BezelHUD</string>
 	<key>CFBundleGetInfoString</key>
-	<string>BezelHUD Interface 1.2a3</string>
+	<string>BezelHUD Interface 1.2a4</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.BezelHUD</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,10 +19,10 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2a3</string>
+	<string>1.2a4</string>
 	<key>CFBundleVersion</key>
-	<string>2B0</string>
-	<key>QSDefaults</key>
+	<string>2AC</string>
+	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>BezelHUD.blur</key>
 		<true/>
@@ -32,7 +32,7 @@
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
-		<string>Julius Eckert</string>
+		<string>Julius Eckert, Ben Cochran</string>
 		<key>categories</key>
 		<array>
 			<string>Interfaces</string>
