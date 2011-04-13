@@ -52,7 +52,7 @@
 
 	
     NSArray *theControls=[NSArray arrayWithObjects:dSelector,aSelector,iSelector,nil];
-    foreach(theControl,theControls){
+    for (QSSearchObjectView *theControl in theControls) {
 
 		[theControl setPreferredEdge:NSMinYEdge];
 		[theControl setResultsPadding:NSMinY([dSelector frame])];
