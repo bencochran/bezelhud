@@ -237,17 +237,19 @@
 - (void)searchObjectChanged:(NSNotification*)notif{
 	[super searchObjectChanged:notif];	
 	[self updateDetailsString];
-	
-	if (([dSelector objectValue]) && ([(QSBasicObject*)[dSelector objectValue] details]))
-		[commandView setStringValue:[(QSBasicObject*)[dSelector objectValue] details]];
 }
 
 // The method to update the command string
 // Get rid of it if you're not having a commandView outlet
 -(void)updateDetailsString{
-	return;
-	NSString *command=[[self currentCommand] description];
-	[commandView setStringValue:command?command:@""];
+    QSBasicObject *object = [dSelector objectValue];
+    NSString *detailsString = [object details];
+    
+    if (detailsString) {
+        [commandView setStringValue:detailsString];
+    } else {
+        [commandView setStringValue:@""];
+    }
 }
 
 // Uncomment if you're having a customize button + pref pane
