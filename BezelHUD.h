@@ -16,7 +16,10 @@
 #import "BHSearchView.h"
 
 @interface BezelHUD : QSResizingInterfaceController {
+    BOOL lockInCenter;
 }
+
+@property (nonatomic, assign) BOOL lockInCenter;
 
 -(void) updateDetailsString;
 

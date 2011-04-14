@@ -11,6 +11,7 @@
 #import <QSEffects/QSWindow.h>
 #import <QSInterface/QSSearchObjectView.h>
 #import <QSInterface/QSObjectCell.h>
+#import <QSFoundation/QSFoundation.h>
 
 #import "BezelHUD.h"
 
@@ -18,8 +19,36 @@
 
 @implementation BezelHUD
 
+@synthesize lockInCenter;
+
+- (void)setLockInCenter:(BOOL)lock {
+    
+    NSLog(@"Lock in center: %@", lock ? @"YES" : @"NO");
+    
+    lockInCenter = lock;
+    
+    if ([self window] == nil) return;
+    
+    if (lockInCenter) {
+        NSRect f = centerRectInRect([[self window] frame], [[NSScreen mainScreen] frame]);
+        
+        [[self window] setFrame:f display:NO];
+        [[self window] setMovable:NO];
+    } else {
+        [[self window] setMovable:YES];
+    }
+}
+
 - (id)init {
-	return [self initWithWindowNibName:@"BezelHUD"];
+	return [self initWithWindowNibName:@"BezelHUD"];    
+}
+
+- (id)initWithWindowNibName:(NSString *)windowNibName {
+    self = [super initWithWindowNibName:windowNibName];
+    if (self) {
+        [self bind:@"lockInCenter" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.force_center" options:nil];
+    }
+    return self;
 }
 
 
@@ -31,6 +60,10 @@
     [[self window] setLevel:NSModalPanelWindowLevel];
     [[self window] setFrameAutosaveName:@"BezelHUDWindow"];
 
+    // Force the setter to be called with the window initialized. Better ways to
+    // do this, but oh well.
+    self.lockInCenter = self.lockInCenter;
+    
 	// If it's off the screen, bring it back in
     [[self window]setFrame:constrainRectToRect([[self window]frame],[[[self window]screen]visibleFrame]) display:NO];
 
