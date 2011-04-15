@@ -22,9 +22,6 @@
 @synthesize lockInCenter;
 
 - (void)setLockInCenter:(BOOL)lock {
-    
-    NSLog(@"Lock in center: %@", lock ? @"YES" : @"NO");
-    
     lockInCenter = lock;
     
     if ([self window] == nil) return;
