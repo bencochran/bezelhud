@@ -14,7 +14,7 @@
 #import <QSFoundation/QSFoundation.h>
 
 #import "BezelHUD.h"
-
+#import "BHCompatability.h"
 
 
 @implementation BezelHUD
@@ -54,8 +54,15 @@
 
 	QSWindow *window=(QSWindow *)[self window];
 
-    [[self window] setLevel:NSModalPanelWindowLevel];
     [[self window] setFrameAutosaveName:@"BezelHUDWindow"];
+
+    if (BHSnowLeopardOrLater) {
+        [[self window] setLevel:NSPopUpMenuWindowLevel];
+        [[self window] setCollectionBehavior:NSWindowCollectionBehaviorTransient];
+    } else {
+        [[self window] setLevel:NSModalPanelWindowLevel];
+        [[self window] setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+    }
 
     // Force the setter to be called with the window initialized. Better ways to
     // do this, but oh well.
@@ -116,9 +123,6 @@
 	
 // Just a reminder that you can do normal NSWindow-ey things...
 //    [[self window]setMovableByWindowBackground:NO];
-	
-	// Oh, that shouldn't have been so hard.
-	[[self window] setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
 	
 	[[[self window] contentView] setNeedsDisplay:YES];
 }

@@ -57,6 +57,7 @@
 		B811D90F10DC5775008C3770 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSInterface.framework; sourceTree = "<absolute>"; };
 		B8143F77135679340010E7D0 /* BHPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHPreferencePane.h; sourceTree = "<group>"; };
 		B8143F78135679340010E7D0 /* BHPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHPreferencePane.m; sourceTree = "<group>"; };
+		B825602913DB14D300955666 /* BHCompatability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCompatability.h; sourceTree = "<group>"; };
 		BB1A0E9B0BD588420049CB64 /* BezelHUD.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUD.nib; sourceTree = "<group>"; };
 		BB79B99C0C11A9B6002CF9B7 /* BezelHUDPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BezelHUDPrefPane.nib; sourceTree = "<group>"; };
 		C616F2290D4D270B0073ABCB /* Button-GearMenu-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-GearMenu-White.png"; sourceTree = "<group>"; };
@@ -186,6 +187,7 @@
 				C69EFC080DCEDD0D00E512A4 /* BHWindow.m */,
 				C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */,
 				C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */,
+				B825602913DB14D300955666 /* BHCompatability.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -357,11 +359,10 @@
 		7F6B3EEC085CE8DF000735A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					Frameworks,
 					"$(QSFrameworks)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -375,11 +376,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_PREPROCESS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
-				VALID_ARCHS = "i386 x86_64 ppc";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wno-parentheses",
@@ -394,11 +392,10 @@
 		7F6B3EED085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					Frameworks,
 					"$(QSFrameworks)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -410,11 +407,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_PREPROCESS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
-				VALID_ARCHS = "i386 x86_64 ppc";
 				VERSIONING_SYSTEM = "";
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -430,21 +424,21 @@
 		7F6B3EF0085CE8DF000735A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = "";
 			};
 			name = Development;
 		};
 		7F6B3EF1085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_MODEL_TUNING = G5;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
