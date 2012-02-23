@@ -102,6 +102,14 @@
 		C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHResultWindow.m; sourceTree = "<group>"; };
 		C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHFieldEditor.h; sourceTree = "<group>"; };
 		C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHFieldEditor.m; sourceTree = "<group>"; };
+		CDA63F0D14F6F27A00C3DB03 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = Configuration/Common.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F0E14F6F27A00C3DB03 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configuration/Debug.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F0F14F6F27A00C3DB03 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Developer.xcconfig; path = Configuration/Developer.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn.xcconfig; path = Configuration/QSPlugIn.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F1114F6F27A00C3DB03 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn_Debug.xcconfig; path = Configuration/QSPlugIn_Debug.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F1214F6F27A00C3DB03 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn_Release.xcconfig; path = Configuration/QSPlugIn_Release.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F1314F6F27A00C3DB03 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Quicksilver.pch; path = Configuration/Quicksilver.pch; sourceTree = QS_SOURCE_ROOT; };
+		CDA63F1414F6F27A00C3DB03 /* Release.xcconfig */ = {isa = PBXFileReference; name = Release.xcconfig; path = Configuration/Release.xcconfig; sourceTree = QS_SOURCE_ROOT; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB045068128A200774DFF /* BezelHUD.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BezelHUD.m; sourceTree = "<group>"; };
 		E1EAB047068128A800774DFF /* BezelHUD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BezelHUD.h; sourceTree = "<group>"; };
@@ -126,6 +134,7 @@
 		0259C574FE90428111CA0C5A /* BezelHUD */ = {
 			isa = PBXGroup;
 			children = (
+				CDA63F0C14F6F27A00C3DB03 /* Configuration */,
 				C616F23F0D4D27110073ABCB /* ResultList */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
@@ -242,6 +251,21 @@
 			);
 			name = "HUD Images";
 			sourceTree = "<group>";
+		};
+		CDA63F0C14F6F27A00C3DB03 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CDA63F0D14F6F27A00C3DB03 /* Common.xcconfig */,
+				CDA63F0E14F6F27A00C3DB03 /* Debug.xcconfig */,
+				CDA63F0F14F6F27A00C3DB03 /* Developer.xcconfig */,
+				CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */,
+				CDA63F1114F6F27A00C3DB03 /* QSPlugIn_Debug.xcconfig */,
+				CDA63F1214F6F27A00C3DB03 /* QSPlugIn_Release.xcconfig */,
+				CDA63F1314F6F27A00C3DB03 /* Quicksilver.pch */,
+				CDA63F1414F6F27A00C3DB03 /* Release.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = QS_SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
