@@ -19,9 +19,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.2</string>
+	<string>1.3.3</string>
 	<key>CFBundleVersion</key>
-	<string>2DE</string>
+	<string>2E0</string>
 	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>BezelHUD.blur</key>
