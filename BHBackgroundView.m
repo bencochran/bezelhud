@@ -98,7 +98,7 @@
 	[image7 drawInRect:leftBottom fromRect:rectFromSize([image7 size]) operation:NSCompositeSourceOver fraction:1.0];	
 	[image8 drawInRect:middleBottom fromRect:rectFromSize([image8 size]) operation:NSCompositeSourceOver fraction:1.0];	
 	[image9 drawInRect:rightBottom fromRect:rectFromSize([image9 size]) operation:NSCompositeSourceOver fraction:1.0];	
-	/**/
+	*/
 	
 	if (fullRect.size.width < 400)
 		[image_small drawInRect:fullRect fromRect:rectFromSize([image_small size]) operation:NSCompositeSourceOver fraction:1.0];	

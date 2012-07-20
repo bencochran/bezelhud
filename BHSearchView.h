@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSSearchObjectView.h>
 #import "SFResults.h"
 
 @interface BHSearchView : QSSearchObjectView {

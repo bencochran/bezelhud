@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSBackgroundView.h>
 
 @interface BHBackgroundView : QSBackgroundView {
 	IBOutlet NSTextField* text_title;

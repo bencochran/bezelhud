@@ -7,17 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "SFResults.h"
 
 
 @interface BHCollectingSearchView : QSCollectingSearchObjectView {
 	
 	bool leftSelector;
-	int editorActivation;
+	NSInteger editorActivation;
 }
 
 -(void) setIsLeftSelector:(bool)isLeftSelector;
--(void) editorActivation:(int)sel;
+-(void) editorActivation:(NSInteger)sel;
 
 @end
 

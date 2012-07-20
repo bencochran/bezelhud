@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSResultWindow.h>
 
 @interface BHResultWindow : QSResultWindow {
 	int blurFilterR;

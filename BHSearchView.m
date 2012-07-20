@@ -37,7 +37,7 @@
 	NSRect screenRect = [[[resultController window] screen] frame];
 	
 	NSPoint resultPoint = [[self window] convertBaseToScreen:[self frame] .origin];
-	float extraHeight = windowRect.size.height-(resultPoint.y-screenRect.origin.y);
+	CGFloat extraHeight = windowRect.size.height-(resultPoint.y-screenRect.origin.y);
 	
 	if (extraHeight>0) {
 		windowRect.origin.y = screenRect.origin.y;

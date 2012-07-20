@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSObjectCell.h>
 
 @interface BHObjectCell : QSObjectCell {
 

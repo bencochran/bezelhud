@@ -8,14 +8,9 @@
 //  QS Interface template by Vacuous Virtuoso
 //
 
-#import <QSEffects/QSWindow.h>
-#import <QSInterface/QSSearchObjectView.h>
-#import <QSInterface/QSObjectCell.h>
-#import <QSFoundation/QSFoundation.h>
-
-#import "BezelHUD.h"
 #import "BHCompatability.h"
-
+#import "BHCollectingSearchView.h"
+#import "BezelHUD.h"
 
 @implementation BezelHUD
 
@@ -77,11 +72,11 @@
 	[window setHideOffset:NSMakePoint(0,0)];
 	[window setShowOffset:NSMakePoint(0,0)];
 
-	[window setShowEffect:[NSDictionary dictionaryWithObjectsAndKeys:@"QSBingeEffect",@"transformFn",@"show",@"type",[NSNumber numberWithFloat:0.09],@"duration",nil]];
-	[window setHideEffect:[NSDictionary dictionaryWithObjectsAndKeys:@"QSShrinkEffect",@"transformFn",@"hide",@"type",[NSNumber numberWithFloat:.13],@"duration",nil]];
+	[window setShowEffect:[NSDictionary dictionaryWithObjectsAndKeys:@"QSBingeEffect",@"transformFn",@"show",@"type",[NSNumber numberWithDouble:0.09],@"duration",nil]];
+	[window setHideEffect:[NSDictionary dictionaryWithObjectsAndKeys:@"QSShrinkEffect",@"transformFn",@"hide",@"type",[NSNumber numberWithDouble:.13],@"duration",nil]];
 	
 	// setWindowProperty returns an error, unfortunately... ignore it
-	[window setWindowProperty:[NSDictionary dictionaryWithObjectsAndKeys:@"QSExplodeEffect",@"transformFn",@"hide",@"type",[NSNumber numberWithFloat:0.09],@"duration",nil] forKey:kQSWindowExecEffect];
+	[window setWindowProperty:[NSDictionary dictionaryWithObjectsAndKeys:@"QSExplodeEffect",@"transformFn",@"hide",@"type",[NSNumber numberWithDouble:0.09],@"duration",nil] forKey:kQSWindowExecEffect];
 
 	[dSelector setCell:[BHObjectCell cellWithText:@"BezeHUD"]];
 	[aSelector setCell:[BHObjectCell cellWithText:@"BezeHUD"]];

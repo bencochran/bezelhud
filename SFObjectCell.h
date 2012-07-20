@@ -7,8 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSObjectCell.h>
-#import <QSCore/QSNullObject.h>
 
 @interface SFObjectCell : QSObjectCell {
 

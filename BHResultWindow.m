@@ -18,7 +18,7 @@
     [self bind:@"shouldBlur" toObject:[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.BezelHUD.blur" options:nil];
 	
     blurFilterR = -1;
-	return result;
+	return (BHResultWindow *)result;
 }
 -(void) applyBlurEffect {    
     if (!self.shouldBlur) return;

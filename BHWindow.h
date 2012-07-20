@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSEffects/QSWindow.h>
 #import "BHFieldEditor.h"
 
 @interface BHWindow : QSBorderlessWindow {

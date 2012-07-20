@@ -28,7 +28,7 @@
 	
 	CGSNewCIFilterByName(_CGSDefaultConnection(), (CFStringRef)@"CIGaussianBlur", &blurFilter);
 	CGSAddWindowFilter(_CGSDefaultConnection(), [self windowNumber], blurFilter, 12289);
-	NSDictionary* dict = [NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:1.5] forKey:@"inputRadius"];
+	NSDictionary* dict = [NSDictionary dictionaryWithObject:[NSNumber numberWithDouble:1.5] forKey:@"inputRadius"];
 	CGSSetCIFilterValuesFromDictionary(_CGSDefaultConnection(), blurFilter, dict);
 }
 

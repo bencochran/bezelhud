@@ -141,7 +141,7 @@
 	NSRectFill(bottomRect);
 
 	return;
-	/*
+	
 	NSBezierPath *cornerEraser = nil;
 	cornerEraser = [NSBezierPath bezierPath];
 	[cornerEraser appendBezierPathWithRoundedRectangle:[self frame] withRadius:6];

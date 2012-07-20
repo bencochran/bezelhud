@@ -7,6 +7,7 @@
 //
 
 #import "BHCollectingSearchView.h"
+#import "SFResults.h"
 //#import "CGSPrivate.h"
 
 #define CGS_EFFECT_DURATION 0.16
@@ -24,7 +25,7 @@
 	resultController = [[SFResults alloc] initWithFocus:self];
 }
 
--(void) editorActivation:(int)sel {
+-(void) editorActivation:(NSInteger)sel {
 	editorActivation = sel;
 	[self setNeedsDisplay:true];
 }
@@ -40,7 +41,7 @@
 	NSRect screenRect = [[[resultController window] screen] frame];
 	
 	NSPoint resultPoint = [[self window] convertBaseToScreen:[self frame] .origin];
-	float extraHeight = windowRect.size.height-(resultPoint.y-screenRect.origin.y);
+	CGFloat extraHeight = windowRect.size.height-(resultPoint.y-screenRect.origin.y);
 	
 	if (extraHeight>0) {
 		windowRect.origin.y = screenRect.origin.y;
@@ -94,7 +95,7 @@
 		//[[NSColor blackColor] set];
 		[[NSColor whiteColor] set];    // #B:BLACK
 		[roundRect stroke];
-		 /**/
+		 */
 	} else {
 		if ((editorActivation == 3) && (leftSelector)) return;
 		if ((editorActivation == 1) && (!leftSelector)) return;
@@ -151,7 +152,7 @@
 		[[[self currentEditor] enclosingScrollView] setFrame: editorFrame];
 		[[self currentEditor] setMinSize:editorFrame.size];
 		[[self currentEditor] setTextColor:[NSColor whiteColor]];   // #B:BLACK
-		[[self currentEditor] setContinuousSpellCheckingEnabled:NO];
+		[(NSTextView *)[self currentEditor] setContinuousSpellCheckingEnabled:NO];
 		[[self currentEditor] setFont:[NSFont fontWithName:@"Monaco" size:11]];
 		[(NSTextView*)[self currentEditor] setInsertionPointColor:[NSColor whiteColor]];
 		

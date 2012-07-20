@@ -44,6 +44,13 @@
 		C6EC8BCB0DCF720700CC17C8 /* HUD_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EC8BC90DCF720700CC17C8 /* HUD_Small.png */; };
 		C6EC8BEF0DCF772700CC17C8 /* BHResultWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */; };
 		C6EC8C9D0DCF80E100CC17C8 /* BHFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */; };
+		CDC007961593278D00F91BFF /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC0078E1593278D00F91BFF /* Common.xcconfig */; };
+		CDC007971593278D00F91BFF /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC0078F1593278D00F91BFF /* Debug.xcconfig */; };
+		CDC007981593278D00F91BFF /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC007901593278D00F91BFF /* Developer.xcconfig */; };
+		CDC007991593278D00F91BFF /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC007911593278D00F91BFF /* QSPlugIn.xcconfig */; };
+		CDC0079A1593278D00F91BFF /* QSPlugIn_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC007921593278D00F91BFF /* QSPlugIn_Debug.xcconfig */; };
+		CDC0079B1593278D00F91BFF /* QSPlugIn_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC007931593278D00F91BFF /* QSPlugIn_Release.xcconfig */; };
+		CDC0079C1593278D00F91BFF /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CDC007951593278D00F91BFF /* Release.xcconfig */; };
 		E1EAB046068128A200774DFF /* BezelHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* BezelHUD.m */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +58,10 @@
 		32DBCF980370C29C00C91783 /* BezelHUD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezelHUD_Prefix.pch; sourceTree = "<group>"; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1AC9740486D14A00FE50C9 /* BezelHUD.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezelHUD.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		B811D79210DC51F6008C3770 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFramework; };
-		B811D79610DC5208008C3770 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFramework; };
-		B811D90D10DC5775008C3770 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFramework; };
-		B811D90F10DC5775008C3770 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFramework; };
+		B811D79210DC51F6008C3770 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B811D79610DC5208008C3770 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B811D90D10DC5775008C3770 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B811D90F10DC5775008C3770 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8143F77135679340010E7D0 /* BHPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHPreferencePane.h; sourceTree = "<group>"; };
 		B8143F78135679340010E7D0 /* BHPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHPreferencePane.m; sourceTree = "<group>"; };
 		B825602913DB14D300955666 /* BHCompatability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCompatability.h; sourceTree = "<group>"; };
@@ -102,14 +109,14 @@
 		C6EC8BEE0DCF772700CC17C8 /* BHResultWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHResultWindow.m; sourceTree = "<group>"; };
 		C6EC8C9B0DCF80E100CC17C8 /* BHFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHFieldEditor.h; sourceTree = "<group>"; };
 		C6EC8C9C0DCF80E100CC17C8 /* BHFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHFieldEditor.m; sourceTree = "<group>"; };
-		CDA63F0D14F6F27A00C3DB03 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = Configuration/Common.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F0E14F6F27A00C3DB03 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configuration/Debug.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F0F14F6F27A00C3DB03 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Developer.xcconfig; path = Configuration/Developer.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn.xcconfig; path = Configuration/QSPlugIn.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F1114F6F27A00C3DB03 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn_Debug.xcconfig; path = Configuration/QSPlugIn_Debug.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F1214F6F27A00C3DB03 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = QSPlugIn_Release.xcconfig; path = Configuration/QSPlugIn_Release.xcconfig; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F1314F6F27A00C3DB03 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Quicksilver.pch; path = Configuration/Quicksilver.pch; sourceTree = QS_SOURCE_ROOT; };
-		CDA63F1414F6F27A00C3DB03 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configuration/Release.xcconfig; sourceTree = QS_SOURCE_ROOT; };
+		CDC0078E1593278D00F91BFF /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = /private/tmp/QS/Configuration/Common.xcconfig; sourceTree = "<absolute>"; };
+		CDC0078F1593278D00F91BFF /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = /private/tmp/QS/Configuration/Debug.xcconfig; sourceTree = "<absolute>"; };
+		CDC007901593278D00F91BFF /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Developer.xcconfig; path = /private/tmp/QS/Configuration/Developer.xcconfig; sourceTree = "<absolute>"; };
+		CDC007911593278D00F91BFF /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSPlugIn.xcconfig; path = /private/tmp/QS/Configuration/QSPlugIn.xcconfig; sourceTree = "<absolute>"; };
+		CDC007921593278D00F91BFF /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSPlugIn_Debug.xcconfig; path = /private/tmp/QS/Configuration/QSPlugIn_Debug.xcconfig; sourceTree = "<absolute>"; };
+		CDC007931593278D00F91BFF /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSPlugIn_Release.xcconfig; path = /private/tmp/QS/Configuration/QSPlugIn_Release.xcconfig; sourceTree = "<absolute>"; };
+		CDC007941593278D00F91BFF /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Quicksilver.pch; path = /private/tmp/QS/Configuration/Quicksilver.pch; sourceTree = "<absolute>"; };
+		CDC007951593278D00F91BFF /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = /private/tmp/QS/Configuration/Release.xcconfig; sourceTree = "<absolute>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB045068128A200774DFF /* BezelHUD.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BezelHUD.m; sourceTree = "<group>"; };
 		E1EAB047068128A800774DFF /* BezelHUD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BezelHUD.h; sourceTree = "<group>"; };
@@ -134,7 +141,7 @@
 		0259C574FE90428111CA0C5A /* BezelHUD */ = {
 			isa = PBXGroup;
 			children = (
-				CDA63F0C14F6F27A00C3DB03 /* Configuration */,
+				CDC0078D1593278D00F91BFF /* Configuration */,
 				C616F23F0D4D27110073ABCB /* ResultList */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
@@ -252,20 +259,21 @@
 			name = "HUD Images";
 			sourceTree = "<group>";
 		};
-		CDA63F0C14F6F27A00C3DB03 /* Configuration */ = {
+		CDC0078D1593278D00F91BFF /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				CDA63F0D14F6F27A00C3DB03 /* Common.xcconfig */,
-				CDA63F0E14F6F27A00C3DB03 /* Debug.xcconfig */,
-				CDA63F0F14F6F27A00C3DB03 /* Developer.xcconfig */,
-				CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */,
-				CDA63F1114F6F27A00C3DB03 /* QSPlugIn_Debug.xcconfig */,
-				CDA63F1214F6F27A00C3DB03 /* QSPlugIn_Release.xcconfig */,
-				CDA63F1314F6F27A00C3DB03 /* Quicksilver.pch */,
-				CDA63F1414F6F27A00C3DB03 /* Release.xcconfig */,
+				CDC0078E1593278D00F91BFF /* Common.xcconfig */,
+				CDC0078F1593278D00F91BFF /* Debug.xcconfig */,
+				CDC007901593278D00F91BFF /* Developer.xcconfig */,
+				CDC007911593278D00F91BFF /* QSPlugIn.xcconfig */,
+				CDC007921593278D00F91BFF /* QSPlugIn_Debug.xcconfig */,
+				CDC007931593278D00F91BFF /* QSPlugIn_Release.xcconfig */,
+				CDC007941593278D00F91BFF /* Quicksilver.pch */,
+				CDC007951593278D00F91BFF /* Release.xcconfig */,
 			);
-			path = Configuration;
-			sourceTree = QS_SOURCE_ROOT;
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -336,6 +344,13 @@
 				C6E0FF8A0D5B8B2100C7F44D /* bg_image7.tif in Resources */,
 				C6EC8BCA0DCF720700CC17C8 /* HUD_Big.png in Resources */,
 				C6EC8BCB0DCF720700CC17C8 /* HUD_Small.png in Resources */,
+				CDC007961593278D00F91BFF /* Common.xcconfig in Resources */,
+				CDC007971593278D00F91BFF /* Debug.xcconfig in Resources */,
+				CDC007981593278D00F91BFF /* Developer.xcconfig in Resources */,
+				CDC007991593278D00F91BFF /* QSPlugIn.xcconfig in Resources */,
+				CDC0079A1593278D00F91BFF /* QSPlugIn_Debug.xcconfig in Resources */,
+				CDC0079B1593278D00F91BFF /* QSPlugIn_Release.xcconfig in Resources */,
+				CDC0079C1593278D00F91BFF /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,23 +398,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7F6B3EEC085CE8DF000735A8 /* Development */ = {
+		7F6B3EEC085CE8DF000735A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */;
+			baseConfigurationReference = CDC007921593278D00F91BFF /* QSPlugIn_Debug.xcconfig */;
 			buildSettings = {
-				GCC_PREFIX_HEADER = BezelHUD_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
 				WRAPPER_EXTENSION = qsplugin;
 			};
-			name = Development;
+			name = Debug;
 		};
 		7F6B3EED085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA63F1014F6F27A00C3DB03 /* QSPlugIn.xcconfig */;
+			baseConfigurationReference = CDC007931593278D00F91BFF /* QSPlugIn_Release.xcconfig */;
 			buildSettings = {
-				GCC_PREFIX_HEADER = BezelHUD_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = BezelHUD;
@@ -407,18 +420,17 @@
 			};
 			name = Release;
 		};
-		7F6B3EF0085CE8DF000735A8 /* Development */ = {
+		7F6B3EF0085CE8DF000735A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA63F0E14F6F27A00C3DB03 /* Debug.xcconfig */;
+			baseConfigurationReference = CDC0078F1593278D00F91BFF /* Debug.xcconfig */;
 			buildSettings = {
 			};
-			name = Development;
+			name = Debug;
 		};
 		7F6B3EF1085CE8DF000735A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA63F1414F6F27A00C3DB03 /* Release.xcconfig */;
+			baseConfigurationReference = CDC007951593278D00F91BFF /* Release.xcconfig */;
 			buildSettings = {
-				GCC_MODEL_TUNING = G5;
 			};
 			name = Release;
 		};
@@ -428,7 +440,7 @@
 		7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "BezelHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F6B3EEC085CE8DF000735A8 /* Development */,
+				7F6B3EEC085CE8DF000735A8 /* Debug */,
 				7F6B3EED085CE8DF000735A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -437,7 +449,7 @@
 		7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "BezelHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F6B3EF0085CE8DF000735A8 /* Development */,
+				7F6B3EF0085CE8DF000735A8 /* Debug */,
 				7F6B3EF1085CE8DF000735A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

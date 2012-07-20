@@ -9,10 +9,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSResizingInterfaceController.h>
 #import "BHObjectCell.h"
 #import "BHBackgroundView.h"
-#import "BHCollectingSearchView.h"
 #import "BHSearchView.h"
 
 @interface BezelHUD : QSResizingInterfaceController {

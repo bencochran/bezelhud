@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSTableView.h>
 
 
 @interface SFTableView : QSTableView {

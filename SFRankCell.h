@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <QSInterface/QSRankCell.h>
 
 @interface SFRankCell : QSRankCell {
 

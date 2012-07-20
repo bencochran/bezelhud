@@ -65,8 +65,8 @@
 	arrow = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleWithIdentifier:@"com.blacktree.Quicksilver.BezelHUD"] pathForResource:@"ChildArrowWhite" ofType:@"png"]];
 }
 
-- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(int)row {
-	if (tableView == resultTable && [[self currentResults] count] >row) {
+- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+	if (tableView == resultTable && (NSInteger)[[self currentResults] count] > row) {
 		QSObject *thisObject = [[self currentResults] objectAtIndex:row];
 		
 		if ([[tableColumn identifier] isEqualToString: COLUMNID_HASCHILDREN]) {
