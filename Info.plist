@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string></string>
+	<string>BezelHDU</string>
 	<key>CFBundleExecutable</key>
 	<string>BezelHUD</string>
 	<key>CFBundleGetInfoString</key>
-	<string>BezelHUD Interface 1.3.1</string>
+	<string>BezelHUD Interface 1.4.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.BezelHUD</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,9 +19,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.0</string>
+	<string>1.4.1</string>
 	<key>CFBundleVersion</key>
-	<string>2FA</string>
+	<string>2FE</string>
 	<key>QSDefaultsTemplate</key>
 	<dict>
 		<key>BezelHUD.blur</key>
@@ -38,7 +38,7 @@
 			<string>Interfaces</string>
 		</array>
 		<key>description</key>
-		<string></string>
+		<string>A dark 'HUD' style interface based on the built in Bezel interface</string>
 		<key>extendedDescription</key>
 		<string></string>
 		<key>icon</key>
@@ -46,7 +46,8 @@
 		<key>qsversion</key>
 		<string>29CC</string>
 		<key>relatedBundles </key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>QSRegistration</key>
 	<dict>
@@ -79,7 +80,7 @@
 	<key>QSRequirements</key>
 	<dict>
 		<key>version</key>
-		<string>3926</string>
+		<string>3936</string>
 	</dict>
 </dict>
 </plist>
